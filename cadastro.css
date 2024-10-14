@@ -1,0 +1,123 @@
+body {
+    background-color: grey;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+section .container {
+    
+
+    background-color: white;
+    border-radius: 10px;
+    width: 500px;
+    height: 700px;
+    padding-top: 50px;
+
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+section .logoo {
+    display: flex;
+    align-items: center;
+}
+
+section .logo {
+    margin: 0 0 5px 0;
+    font-size: 40px;
+    font-weight: bolder;
+    color: #7CFC00;
+    text-align: center;
+}
+
+section .descricao {
+    text-align: center;
+    font-size: 15px;
+    color: #434343;
+
+    margin-bottom: 20px;
+}
+
+form p{
+    margin-bottom: 10px;
+}
+
+form {
+    padding-left: 70px;
+}
+
+input {
+    width: 350px;
+    max-width: 500px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #c4c1c1;
+    padding: 0 0 0 5%;
+}
+input:focus{
+    outline: 1px solid #00FF00;
+}
+
+.cssCadastroCriar {
+    margin-top: 40px;
+}
+
+button {
+    background-color: #32CD32;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    width: 350px;
+    height: 40px;
+
+    font-size: 15px;
+    color: white;
+    font-weight: bolder;
+    transition: ease .4s;
+}
+button:hover {
+    cursor: pointer;
+    background-color: #006400;
+}
+
+.barrinha {
+    border: 1px solid whitesmoke;
+    margin: 10px 0 10px 0;
+
+}
+
+.cssCadastro {
+    text-align: center;
+    /* margin-left: 70px; */
+    /* max-width: 350px; */
+    /* background-color: #006400; */
+
+    
+}
+.cssCadastro a {
+    color: #006400;
+    font-weight: bolder;
+}
+.cssCadastro a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: 70px;
+}
+footer p {
+    text-align: center;
+    color: #3a3a3a;
+}
+
+footer p .spanCor {
+    font-weight: bolder;
+    color: #006400;
+}

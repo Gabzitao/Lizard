@@ -1,0 +1,136 @@
+body {
+    background-color: grey;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.fundo {
+    align-items: center;
+    padding-top: 50px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 700px;
+    border-radius: 10px;
+}
+.section .logoo {
+    display: flex;
+    align-items: center;
+}
+
+section .logo {
+    margin: 0 0 5px 0;
+    font-size: 40px;
+    font-weight: bolder;
+    color: #7CFC00;
+    text-align: center;
+}
+
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+.logo {
+    margin: 0 0 35px 0;
+    font-size: 40px;
+    font-weight: bolder;
+    color: #32CD32;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+
+.email {
+    margin: 50px 0 0 0;
+}
+.email p {
+    margin-bottom: 10px;
+
+}
+
+.senha {
+    margin: 20px 0 0 0;
+}
+.senha p {
+    margin-bottom: 10px;
+}
+
+.esqueci-senha {
+    margin-top: 5px;
+    font-size: 11px;
+    color: #006400;
+    text-align: center;
+    font-weight: bolder;
+
+}
+
+.esqueci-senha:hover {
+    text-decoration: underline;
+}
+
+.botao button {
+    margin-top: 25px;
+
+    width: 250px;
+    height: 40px;
+    background-color: #32CD32;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: white;
+    
+    font-weight: bolder;
+    font-size: 15px;
+    transition: ease .9s;
+}
+.botao button:hover {
+    cursor: pointer;
+    background-color: #006400;
+}
+
+
+input {
+    border: 1px solid #c4c1c1;
+    width: 350px;
+    height: 40px;
+    padding: 0 0 0 5%;
+    border-radius: 5px;
+    
+
+}
+
+input::placeholder {
+    color: #c4c1c1;
+    font-size: 15px;
+}
+
+input:focus{
+    outline: 1px solid #00FF00;
+}
+
+.criar-conta {
+    font-size: 15px;
+    margin-top: 25px;
+    color: #3f3d3d;
+}
+
+.criar-conta a {
+    color: #006400;
+    font-weight: bolder;
+}
+
+.criar-conta a:hover {
+    text-decoration: underline;
+}
+

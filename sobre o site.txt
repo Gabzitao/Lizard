@@ -1,0 +1,5 @@
+Cores: 
+    DarkGreen: #006400, 
+    Lime: #00FF00, 
+    LawnGreen: #7CFC00,
+    LimeGreen: #32CD32

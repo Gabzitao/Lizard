@@ -1,0 +1,380 @@
+body {
+    background-color: whitesmoke;
+}
+
+ul li {
+    list-style: none;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+    background-color: gainsboro;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.botao{
+    background-color: #32CD32;
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 0 10px 0 10px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    max-width: 1600px;
+    
+
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu ul .menu-logo {
+    color: #00FF00;
+    font-size: 30px;
+}
+
+.menu ul li {
+    padding: 0 5px 0 5px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.menu ul:nth-child(2) li:hover {
+    border-bottom: 1px solid red;
+}
+
+.menu ul:nth-child(2) li {
+    margin: 0 50px 0 50px;
+    border-bottom: 1px solid transparent;
+
+}
+
+.menu ul .menu-login {
+    color: #00FF00;
+    margin: 0 10px 0 10px;
+}
+
+.menu ul .menu-criar {
+    background-color: #32CD32;
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 0 10px 0 10px;
+
+}
+.menu ul .menu-criar:hover {
+    cursor: pointer;
+}
+
+
+/* fim MENU */
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    overflow: hidden;
+   background: white;
+   
+
+}
+
+.principal .principalinfo {
+    max-width: 1600px;
+    /* margin-top: 40px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal .principalinfo .principal-1 {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.principal .principalinfo .principal-1 h1 {
+    text-align: center;
+    transform: translateY(-100px);
+
+    font: bolder;
+    font-size: 60px;
+    /* color: #32CD32; */
+}
+
+.principal .principalinfo .principal-1 p {
+    text-align: center;   
+    font-size: 20px;
+}
+
+.principal .principalinfo .principal-1 button {
+    background-color: #32CD32;
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 50px 10px 0 50px;
+    border: 1px solid transparent;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.principal .principalinfo .principal-2 img{
+    margin-right: 15px;
+    width: 900px;
+    /* height: 750px; */
+    /* overflow-x: hidden; */
+    /* display: flex; */
+  
+}
+
+
+/* EXPERIENCIA */
+
+.experiencia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: white;
+    height: auto;
+}
+
+.experiencia .experienciainfo p {
+    width: 700px;
+    
+}
+.experiencia .experienciainfo h1 {
+    margin: 20px 0;
+
+}
+
+.experiencia .experienciainfo .experienciaboton {
+    margin-top: 30px;
+    text-align: start;
+
+}
+
+.experiencia .experienciacard {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    align-items: center ;
+}
+
+.experiencia .experienciacard .experienciaItem{
+    margin-right: 40px;
+}
+
+.experiencia .experienciacard .experienciaItem .experienciacardItem01, .experienciacardItem02 {
+    width: 300px;
+    height: 150px;
+    margin-bottom: 5px;
+
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* JUNTE-SE */ 
+
+.juntese {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10% 0;
+}
+
+.juntese .esquerda {
+    margin-right: 10%;
+}
+.juntese .esquerda h1 {
+    max-width: 400px;
+    font-size: 1.8rem;
+}
+.juntese .esquerda h1 span {
+    color: #006400;
+}
+
+.juntese .esquerda a {
+    background-color: #32CD32;
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 50px 10px 0 0;
+    display: inline-block;
+}
+
+.juntese .direita {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.juntese .direita .item {
+    width: 300px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 30px 0 30px 20px;
+}
+
+.juntese .direita .item h1 {
+    color: #006400;
+}
+
+/* COMENTARIOS CLIENTES */
+.conteiner-comentarios {
+    background-color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+.conteiner-comentarios {
+    & h1{
+        color: #006400;
+    }
+    & .comentarios-p {
+        width: 1200px;
+        margin-left: 50%;
+        margin-bottom: 50px;
+        transform: translateX(-50%);
+    }
+}
+.comentarios {
+    padding: 20px;
+    padding-bottom: 100px;
+    display: grid;
+    grid-template-columns: repeat(3,450px);
+    gap: 50px;
+    justify-content: center;
+}
+.comentarios .comentarios-itens {
+    min-width: 450px;
+    height: 500px;
+    width: 150px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    /* margin-left: 50px; */
+    padding: 0 10px 10px 20px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.comentarios .comentarios-itens:nth-child(4), .comentarios-itens:nth-child(5){
+    margin-left: 275px;
+}
+.comentarios .comentarios-itens:hover {
+    cursor: pointer;
+    
+}
+.comentarios .comentarios-itens .comentarios-itens-estrela{
+    color: orange;
+    width: 400px;
+    margin-top: 10px;
+    text-align: end;
+}
+.comentarios .comentarios-itens .comentarios-itens-img-template {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    gap: 20px;
+}
+.comentarios .comentarios-itens img {
+    margin-top: 35px;
+    margin-bottom: 30px;
+    width: 100px;
+    border-radius: 10%;
+}
+.comentarios .comentarios-itens .comentario {
+    margin-top: 50px;
+    max-height: 400px;
+    width: 350px;
+    text-align: start;
+}
+
+/* PRE RODAPE */
+.pre-rodape {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    border-bottom: 1px solid gray;
+
+
+    & h2 {
+        color: #006400;
+        font-size: 2rem;
+        margin-top: 100px;
+    }
+
+    & p {
+        color: gray;
+    }
+
+    & a {
+        padding: 10px;
+        margin: 30px 0 100px 0;
+        background-color: #32CD32;
+        border: 1px solid transparent;
+        border-radius: 10px;
+        color: white;
+        font-weight: bold;
+        font-size: 1rem;
+    }
+}
+
+
+/* RODAPE */
+.rodape {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: whitesmoke;
+}
+
+.rodape .rodapeinicio .rodapeinfo {
+    display: flex;
+    /* align-items:center; */
+    justify-content: space-around;
+}
+
+.rodape .rodapeinicio .rodapeinfo .areaCliente, .informacoes, .contato {
+    display: flex;
+    flex-direction: column;
+}
+
+.rodape .rodapeinicio .rodapeinfo p {
+    font-weight: bolder;
+    color: #006400;
+    font-size: 17px;
+}
+
+.rodape .rodapeinicio .rodapeinfo a {
+    color: black;
+    font-size: 17px;
+   line-height: 30px;
+}
+
+.rodape .rodapeinicio .rodapeinfo a:hover {
+    text-decoration: underline;
+}
+

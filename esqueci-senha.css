@@ -1,0 +1,95 @@
+body {
+    background-color: grey;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.fundo {
+    background-color: white;
+    border-radius: 10px;
+    height: 300px;
+    width: 450px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #006400;
+    margin-top: 40px;
+}
+p {
+    margin-top: 10px;
+    width: 390px;
+    text-align: center;
+    font-size: 13px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    & input {
+        width: 400px;
+        height: 40px;
+        border: 1px solid #c4c1c1;
+        border-radius: 10px;
+        padding: 10px;
+
+        margin-top: 30px;
+    }
+
+    & input:focus{
+        outline: 1px solid #00FF00;
+    }
+}
+
+form .botoes {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+
+    & a,button {
+        display: block;
+        width: 195px;
+        height: 40px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font-weight: bold;
+        border-radius: 5px;
+        font-size: 17px;
+        transition: ease .5s;
+    }
+
+    & a {
+        background-color: whitesmoke;
+    }
+
+    & a:hover {
+        background-color: #d6d4d4;
+        /* border: 1px solid #000000; */
+    }
+
+    & button {
+        background-color: #32CD32;
+        color: white;
+        border: 1px solid transparent;
+    }
+    & button:hover {
+        background-color: #006400;
+    }
+
+
+}
+
